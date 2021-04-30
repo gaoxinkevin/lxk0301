@@ -42,7 +42,7 @@ crazyJoy任务 = type=cron,cronexp="10 7,10 * * *",wake-system=1,timeout=3600,sc
 京东种豆得豆 = type=cron,cronexp="1 7-21/2 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_plantBean.js
 京东全民开红包 = type=cron,cronexp="1 1,11 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_redPacket.js
 闪购盲盒 = type=cron,cronexp="20 8,9 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_sgmh.js
-进店领豆 = type=cron,cronexp="10 0,9 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_shop.js
+进店领豆 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_shop.js
 东东小窝 = type=cron,cronexp="16 22 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_small_home.js
 京东极速版红包 = type=cron,cronexp="0 0,11 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_speed_redpocke.js
 京东极速版 = type=cron,cronexp="0 7,9 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_speed_sign.js
